@@ -51,6 +51,8 @@ ul {
   text-decoration: none;
 }
 .header-contact {
+  display: flex;
+  align-items: center;
   color: var(--color-font-secondary);
 }
 .active-web,
@@ -85,8 +87,11 @@ ul {
   margin-bottom: 30px;
 }
 .main-bg-box {
-  background-color: var(--color-background-primary);
   display: flex;
+  background: url(../images/mainpage-background.jpg),
+    linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 .button-primary {
   font-weight: 700;
@@ -287,4 +292,7 @@ ul {
   margin-top: 30px;
   margin-bottom: 30px;
   gap: 10px;
+}
+.test {
+  display: flex;
 }
