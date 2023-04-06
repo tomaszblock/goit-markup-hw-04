@@ -59,8 +59,11 @@ ul {
 .header:hover,
 .header:focus,
 .footer-contact:hover,
-.footer-contact:focus {
+.footer-contact:focus,
+.header-icons:hover,
+.header-icons:focus {
   color: var(--color-special-primary);
+  fill: var(--color-special-primary);
 }
 .button-primary:hover,
 .button-primary:focus {
@@ -203,7 +206,7 @@ ul {
   flex-grow: 1;
 }
 .header-contact-box {
-  gap: 50px;
+  gap: 30px;
   display: flex;
 }
 .filter-box {
@@ -293,6 +296,6 @@ ul {
   margin-bottom: 30px;
   gap: 10px;
 }
-.test {
-  display: flex;
+.header-icons {
+  margin-right: 10px;
 }
