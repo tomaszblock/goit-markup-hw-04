@@ -311,3 +311,7 @@ ul {
   padding-bottom: 25px; */
   margin-bottom: 30px;
 }
+.test {
+  display: flex;
+  /* flex-direction: row; */
+}
