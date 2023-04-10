@@ -377,8 +377,6 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-white);
-  /* margin-top: 12px;
-  margin-bottom: 20px; */
 }
 .footer-media-icon-box {
   display: flex;
@@ -398,4 +396,8 @@ ul {
   align-items: flex-start;
   flex-direction: column;
   gap: 20px;
+}
+.portfolio-box > li:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
