@@ -313,4 +313,9 @@ ul {
 }
 .test {
   display: flex;
+  justify-content: center;
+}
+.test2 {
+  padding-left: 30px;
+  padding-right: 30px;
 }
