@@ -12,6 +12,7 @@
   --color-header-border: rgb(236, 236, 236);
   --color-image-border: rgb(238, 238, 238);
   --color-icons-primary: rgb(175, 177, 184);
+  --color-bg-footer-icons: rgba(255, 255, 255, 0.1);
 }
 body,
 body a {
@@ -239,10 +240,13 @@ ul {
   border-left: 1px solid var(--color-image-border);
 }
 .footer-box {
-  align-items: flex-start;
-  flex-direction: column;
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
   margin-top: 60px;
   margin-bottom: 60px;
+  gap: 70px;
 }
 .footer-address-box {
   display: flex;
@@ -321,7 +325,9 @@ ul {
   max-height: 44px;
 }
 .mainpage-image-media-icon:hover,
-.mainpage-image-media-icon:focus {
+.mainpage-image-media-icon:focus,
+.footer-media-icon:hover,
+.footer-media-icon:focus {
   display: flex;
   background-color: var(--color-special-primary);
   border-radius: 50%;
@@ -343,19 +349,53 @@ ul {
   margin-left: 5px;
   margin-right: 32px;
 }
-.mainpage-ourclients-box {
+.mainpage-ourcustomers-box {
   display: flex;
   padding: 16px 32px;
   border: 1px solid var(--color-icons-primary);
   border-radius: 4px;
   fill: var(--color-icons-primary);
 }
-.mainpage-ourclients-box:hover,
-.mainpage-ourclients-box:focus {
+.mainpage-ourcustomers-box:hover,
+.mainpage-ourcustomers-box:focus {
   cursor: pointer;
   border: 1px solid var(--color-special-primary);
 }
-.mainpage-ourclients-box:focus svg,
-.mainpage-ourclients-box:hover svg {
+.mainpage-ourcustomers-box:focus svg,
+.mainpage-ourcustomers-box:hover svg {
   fill: var(--color-special-primary);
+}
+.footer-inbox {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.footer-media-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-white);
+  /* margin-top: 12px;
+  margin-bottom: 20px; */
+}
+.footer-media-icon-box {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.footer-media-icon {
+  display: flex;
+  padding: 12px 12px;
+  border-radius: 50%;
+  fill: var(--color-white);
+  max-height: 44px;
+  background-color: var(--color-bg-footer-icons);
+}
+.footer-joinus-box {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
 }
