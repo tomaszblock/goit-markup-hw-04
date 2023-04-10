@@ -272,10 +272,10 @@ ul {
   display: flex;
   gap: 30px;
 }
-.mainpage-ourteam-box {
+.mainpage-section-box {
   flex-direction: column;
 }
-.mainpage-ourteam-images-box {
+.mainpage-elements-box {
   display: flex;
   margin-top: 50px;
   gap: 30px;
@@ -320,7 +320,8 @@ ul {
   fill: var(--color-icons-primary);
   max-height: 44px;
 }
-.mainpage-image-media-icon:hover {
+.mainpage-image-media-icon:hover,
+.mainpage-image-media-icon:focus {
   display: flex;
   background-color: var(--color-special-primary);
   border-radius: 50%;
@@ -341,4 +342,20 @@ ul {
   display: flex;
   margin-left: 5px;
   margin-right: 32px;
+}
+.mainpage-ourclients-box {
+  display: flex;
+  padding: 16px 32px;
+  border: 1px solid var(--color-icons-primary);
+  border-radius: 4px;
+  fill: var(--color-icons-primary);
+}
+.mainpage-ourclients-box:hover,
+.mainpage-ourclients-box:focus {
+  cursor: pointer;
+  border: 1px solid var(--color-special-primary);
+}
+.mainpage-ourclients-box:focus svg,
+.mainpage-ourclients-box:hover svg {
+  fill: var(--color-special-primary);
 }
