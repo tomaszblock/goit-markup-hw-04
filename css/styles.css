@@ -240,10 +240,7 @@ ul {
   border-left: 1px solid var(--color-image-border);
 }
 .footer-box {
-  display: flex;
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
+  align-items: normal;
   margin-top: 60px;
   margin-bottom: 60px;
   gap: 70px;
@@ -317,8 +314,13 @@ ul {
 .mainpage-ourteam-image-media-box {
   display: flex;
   justify-content: center;
+  gap: 10px;
   margin-bottom: 30px;
 }
+.mainpage-ourteam-image-media-box li {
+  display: flex;
+}
+
 .mainpage-image-media-icon {
   padding: 12px 12px;
   fill: var(--color-icons-primary);
@@ -332,22 +334,6 @@ ul {
   background-color: var(--color-special-primary);
   border-radius: 50%;
   fill: var(--color-white);
-}
-.mainpage-image-media-icon-left {
-  display: flex;
-  margin-left: 32px;
-  margin-right: 5px;
-}
-
-.mainpage-image-media-icon-center {
-  display: flex;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-.mainpage-image-media-icon-right {
-  display: flex;
-  margin-left: 5px;
-  margin-right: 32px;
 }
 .mainpage-ourcustomers-box {
   display: flex;
