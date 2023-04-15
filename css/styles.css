@@ -261,9 +261,6 @@ ul {
 .list-box {
   gap: 30px;
 }
-.flex {
-  display: flex;
-}
 .mainpage-titles-box {
   flex-direction: column;
   gap: 50px;
